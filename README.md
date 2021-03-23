@@ -1,25 +1,14 @@
-# Survival Model with Python
+# Learn Survival Model with Pysurvival
 
-<center><img src="docs/images/Logo.gif" alt="dsciencelabs_logo" title="dsciencelab_logo" width="50%", height="50%" /></center>
+<center><img src="docs/pages/images/py_survival_logo" alt="dsciencelabs_logo" title="dsciencelab_logo" width="50%", height="50%" /></center>
 
 ## What is Pysurvival ?
+
 PySurvival is an open source python package for Survival Analysis modeling - *the modeling concept used to analyze or predict when an event is likely to happen*. It is built upon the most commonly used machine learning packages such [NumPy](http://www.numpy.org/), [SciPy](https://www.scipy.org/) and [PyTorch](https://pytorch.org/).
 
 PySurvival is compatible with Python 2.7-3.7.
 
 Check out the documentation [here](https://dsciencelabs.github.io/survivalmodel_py/)
-
----
-
-## Content
-PySurvival provides a very easy way to navigate between theoretical knowledge on Survival Analysis and detailed tutorials on how to conduct a full analysis, build and use a model. Indeed, the package contains:
-
-* 10+ models ranging from the [Cox Proportional Hazard model](https://www.pysurvival.io/models/coxph.html), the [Neural Multi-Task Logistic Regression](https://www.pysurvival.io/models/neural_mtlr.html) to [Random Survival Forest](https://www.pysurvival.io/models/random_survival_forest.html)
-* Summaries of the theory behind each model as well as API descriptions and examples.
-* Tutorials displaying in great details how to perform exploratory data analysis, survival modeling, cross-validation and prediction, for [churn modeling](https://www.pysurvival.io/tutorials/churn.html) and [credit risk](https://www.pysurvival.io/tutorials/credit_risk.html) to name a few.
-* Performance metrics to assess the models' abilities like [c-index](https://www.pysurvival.io/metrics/c_index.html) or [brier score](https://www.pysurvival.io/metrics/brier_score.html)
-* Simple ways to [load and save models](https://www.pysurvival.io/miscellaneous/save_load.html)
-* ... and more !
 
 ---
 
@@ -69,32 +58,4 @@ print("MTLR model c-index = {:.2f}".format(c_index2))
 
 ---
 
-## Citation and License
 
-### Citation
-If you use Pysurvival in your research and we would greatly appreciate if you could use the following:
-
-```
-@Misc{ pysurvival_cite,
-  author =    {Stephane Fotso and others},
-  title =     {PySurvival: Open source package for Survival Analysis modeling},
-  year =      {2019--},
-  url = "https://www.pysurvival.io/"
-}
-```
-
-### License
-
-Copyright 2019 Square Inc.
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-[http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0)
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
