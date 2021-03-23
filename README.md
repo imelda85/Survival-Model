@@ -1,6 +1,6 @@
 # PySurvival
 
-<center><img src="docs/pages/images/pysurvival_logo_black_blue.png" alt="pysurvival_logo" title="pysurvival_logo" width="50%", height="50%" /></center>
+<center><img src="docs/pages/images/Logo.gif" alt="pysurvival_logo" title="pysurvival_logo" width="50%", height="50%" /></center>
 
 ## What is Pysurvival ?
 PySurvival is an open source python package for Survival Analysis modeling - *the modeling concept used to analyze or predict when an event is likely to happen*. It is built upon the most commonly used machine learning packages such [NumPy](http://www.numpy.org/), [SciPy](https://www.scipy.org/) and [PyTorch](https://pytorch.org/).
